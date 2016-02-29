@@ -21,7 +21,7 @@ shinyServer(function(input, output) {
     dataframe <- filter(iris, Species == input$flower_species)
     p <- plot_ly(data = dataframe, x = Sepal.Length, y = Petal.Length, mode = "markers", 
                  color = Sepal.Width, size = Petal.Width) %>%
-    layout(title = title_plot, width = 1000, height = 700) 
+    layout(title = title_plot, width = 825, height = 525) 
     return (p)
   })
   

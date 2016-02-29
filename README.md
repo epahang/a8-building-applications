@@ -1,5 +1,5 @@
 # a8-building-applications
-Link to shinyapps.io project [here]()
+Link to shinyapps.io project [here](https://epahang.shinyapps.io/a8-building-applications/)
 1. Did you receive any help from others (classmates, etc)? If so, please list who.
 > I recieved help from my TA Marcus. He helped me realize I was using renderPlot instead of renderPlotly in my server.R... making my graph not show up.
 
